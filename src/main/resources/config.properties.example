@@ -1,0 +1,8 @@
+# Copy this file to config.properties and set the practice-site password.
+base.url=https://rahulshettyacademy.com/loginpagePractise/
+browser=chrome
+headless=false
+username=rahulshettyacademy
+password=
+explicit.wait.seconds=15
+page.load.timeout.seconds=60

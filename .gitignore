@@ -1,0 +1,12 @@
+target/
+src/main/resources/config.properties
+.allure/
+allure-results/
+allure-report/
+screenshots/
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+.vscode/

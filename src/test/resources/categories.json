@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Assertion failures",
+    "matchedStatuses": ["failed"],
+    "traceRegex": ".*AssertionError.*"
+  },
+  {
+    "name": "Element waits",
+    "matchedStatuses": ["broken", "failed"],
+    "traceRegex": ".*TimeoutException.*"
+  },
+  {
+    "name": "Broken tests",
+    "matchedStatuses": ["broken"]
+  }
+]

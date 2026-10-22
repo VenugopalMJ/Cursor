@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login Page Suite" verbose="1">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+        <listener class-name="com.academy.login.listeners.AllureReportListener"/>
+    </listeners>
+    <test name="Login Page Fields">
+        <classes>
+            <class name="com.academy.login.tests.LoginPageTest"/>
+        </classes>
+    </test>
+    <test name="Shopping Page">
+        <classes>
+            <class name="com.academy.login.tests.ShoppingPageTest"/>
+        </classes>
+    </test>
+    <test name="Checkout">
+        <classes>
+            <class name="com.academy.login.tests.CheckoutPageTest"/>
+        </classes>
+    </test>
+</suite>
