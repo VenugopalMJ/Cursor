@@ -44,6 +44,7 @@ public class ShoppingPageTest extends BaseTest {
             Assert.assertTrue(shopPage.isCheckoutDisplayed());
             Assert.assertTrue(shopPage.getCheckoutLabel().startsWith("Checkout"));
             Assert.assertEquals(shopPage.getCheckoutCount(), 0);
+            System.out.println("First Pull");
         });
     }
 
